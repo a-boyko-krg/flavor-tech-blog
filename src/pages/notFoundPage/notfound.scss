@@ -1,0 +1,27 @@
+.not-found {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   }
+
+.not-found-img {
+   max-width: 100%;
+   height: auto;
+}
+
+.return-btn {
+   display: flex;
+   align-items: center;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 15px;
+   background: #e87727;
+   color: #fff;
+   margin-top: 20px;
+   font-family: 'Marmelad', sans-serif;
+
+   & span {
+      margin-left: 10px;
+   }
+}

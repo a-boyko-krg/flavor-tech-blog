@@ -1,0 +1,34 @@
+.categoryList {
+   display: none;
+   flex-wrap: wrap;
+   justify-content: center;
+   list-style: none;
+   margin-bottom: 30px;
+   width: 100%;
+
+}
+
+@media only screen and (max-width: 768px) {
+   .categoryList {
+      display: flex;
+   }
+}
+
+.categoryListItem {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   width: 30%;
+   margin-top: 15px;
+   cursor: pointer;
+   text-align: center;
+   font-size: 20px;
+}
+
+.categoryListImg {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   object-fit: cover;
+}

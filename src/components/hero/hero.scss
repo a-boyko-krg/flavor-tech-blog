@@ -1,0 +1,24 @@
+.header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.headerTitleSm {
+   font-size: 45px;
+   font-family: 'Comforter', cursive;
+   color: rgb(252, 4, 4);
+   margin-top: 20px;
+}
+
+.headerImg {
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+}
+
+@media only screen and (max-width: 450px) {
+   .headerTitleSm {
+      display: none;
+   }
+}
